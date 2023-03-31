@@ -9,6 +9,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.17",
+    "@tailwindcss/typography": "^0.5.9",
     "swell-js": "^3.13.1"
   },
   "devDependencies": {
