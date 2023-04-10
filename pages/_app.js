@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>The Coffee House</title>
+        <title>Raknarin - Clothing </title>
       </Head>
       <Layout>
         <Component {...pageProps} />
