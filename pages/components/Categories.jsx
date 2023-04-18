@@ -17,7 +17,7 @@ const Categories = () => {
           ```
         */
 
-        <div className="bg-gray-50">
+        <div className="bg-white">
             <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
                 <div className="sm:flex sm:items-baseline sm:justify-between">
                     <h2 className="text-2xl font-bold tracking-tight text-gray-900">Shop by Category</h2>
@@ -30,7 +30,7 @@ const Categories = () => {
                 <div className="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-6 lg:gap-8">
                     <div className="group aspect-h-1 aspect-w-2 overflow-hidden rounded-lg sm:aspect-h-1 sm:aspect-w-1 sm:row-span-2">
                         <img
-                            src="https://tailwindui.com/img/ecommerce-images/home-page-03-featured-category.jpg"
+                            src="womens.jpg"
                             alt="Two models wearing women's black cotton crewneck tee and off-white cotton crewneck tee."
                             className="object-cover object-center group-hover:opacity-75"
                         />
@@ -38,9 +38,9 @@ const Categories = () => {
                         <div className="flex items-end p-6">
                             <div>
                                 <h3 className="font-semibold text-white">
-                                    <a href="#">
+                                    <a href="/women">
                                         <span className="absolute inset-0" />
-                                        New Arrivals
+                                        Women's
                                     </a>
                                 </h3>
                                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -62,9 +62,9 @@ const Categories = () => {
                         <div className="flex items-end p-6 sm:absolute sm:inset-0">
                             <div>
                                 <h3 className="font-semibold text-white">
-                                    <a href="#">
+                                    <a href="/men">
                                         <span className="absolute inset-0" />
-                                        Accessories
+                                        Men's
                                     </a>
                                 </h3>
                                 <p aria-hidden="true" className="mt-1 text-sm text-white">
@@ -86,9 +86,9 @@ const Categories = () => {
                         <div className="flex items-end p-6 sm:absolute sm:inset-0">
                             <div>
                                 <h3 className="font-semibold text-white">
-                                    <a href="#">
+                                    <a href="/children">
                                         <span className="absolute inset-0" />
-                                        Workspace
+                                        Kid's
                                     </a>
                                 </h3>
                                 <p aria-hidden="true" className="mt-1 text-sm text-white">

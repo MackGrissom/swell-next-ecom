@@ -10,7 +10,7 @@ export default function Header({ scrollHandler }) {
             <video
               priority
               fill
-              className="h-full w-full object-cover"
+              className="h-full w-full object-cover opacity-80"
               src="/hero.mp4"
               alt="beach in thailand"
               autoPlay
@@ -38,13 +38,18 @@ export default function Header({ scrollHandler }) {
               <span className="block text-orange-500">beach</span>
             </h1>
 
-            <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center">
+            <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center gap-4">
               <button
-                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-600 shadow-sm hover:bg-orange-100 sm:px-8"
+                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-600 shadow-sm hover:bg-orange-100 sm:px-8 gap-4 "
                 onClick={scrollHandler}
               >
-                Shop clothes
+Latest Designs
               </button>
+              <a
+                className="flex items-center justify-center rounded-md border border-transparent bg-[orange] px-4 py-3 text-base font-medium text-white shadow-sm hover:bg-orange-100 hover:text-black sm:px-8 gap-4" href='/shop'
+              >
+                Shop clothes
+              </a>
             </div>
           </div>
         </div>
